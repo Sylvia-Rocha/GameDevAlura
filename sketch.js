@@ -5,9 +5,10 @@ let somDoJogo;
 let personagem;
 
 function preload(){
-  imagemCenario =   loadImage("imagens/cenario/floresta.png");
-  // imagemCenario =   loadImage("imagens/cenario/cidade2.png");
+  // imagemCenario =   loadImage("imagens/cenario/floresta.png");
+  imagemCenario =   loadImage("imagens/cenario/cidade9.jpg");
   imagemPersonagem = loadImage("imagens/personagem/correndo.png");
+  // imagemPersonagem = loadImage("imagens/personagem/personagem2.png");
   // somDoJogo = loadSound("sons/trilha_jogo.mp3");
 }
 
@@ -20,7 +21,7 @@ function setup() {
   //-- executa só uma vez
   // somDoJogo.play();
   frameRate(40);
-  // -- executa infinito
+  // -- executa infinito ***
   // somDoJogo.loop();
 }
 
