@@ -6,8 +6,9 @@ let personagem;
 
 function preload(){
   imagemCenario =   loadImage("imagens/cenario/floresta.png");
+  // imagemCenario =   loadImage("imagens/cenario/cidade2.png");
   imagemPersonagem = loadImage("imagens/personagem/correndo.png");
-  somDoJogo = loadSound("sons/trilha_jogo.mp3");
+  // somDoJogo = loadSound("sons/trilha_jogo.mp3");
 }
 
 function setup() {
@@ -20,7 +21,7 @@ function setup() {
   // somDoJogo.play();
   frameRate(40);
   // -- executa infinito
-  somDoJogo.loop();
+  // somDoJogo.loop();
 }
 
 function draw() {
