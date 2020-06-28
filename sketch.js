@@ -10,6 +10,8 @@ function preload(){
   imagemPersonagem = loadImage("imagens/personagem/correndo.png");
   // imagemPersonagem = loadImage("imagens/personagem/personagem2.png");
   // somDoJogo = loadSound("sons/trilha_jogo.mp3");
+  
+  somDoJogo = loadSound("sons/VirtualWorldAShamaluevMusic.mp3");
 }
 
 function setup() {
@@ -22,7 +24,7 @@ function setup() {
   // somDoJogo.play();
   frameRate(40);
   // -- executa infinito ***
-  // somDoJogo.loop();
+  somDoJogo.loop();
 }
 
 function draw() {
